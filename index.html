@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About_Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="parent">
+
+
+        <div class="sidebars">
+            <!-- <i class="fa-solid fa-bars"></i> -->
+            <div class="logo">
+                <img src="assets\img\logo.png" width="70px" alt="logo">
+                <h3><a href="Aboutus.html" target="ifm">PetProtectors</a></h3>
+            </div>
+            <!-- <div class="About" id="Abt"> -->
+            <div class="links"><a href="ourwork.html" target="ifm">OUR
+                    WORK</a></div>
+            <div class="links"><a href="visit.html" target="ifm">VISIT</a></div>
+            <div class="links"><a href="adopt.html" target="ifm">ADOPT</a></div>
+            <div class="links"><a href="donate.html" target="ifm">DONATE</a></div>
+            <div class="links"><a href="">SPONSOR</a></div>
+            <div class="links"><a href="">JOIN</a></div>
+            <div class="links"><a href="">FAQs</a></div>
+            <div class="links"><a href="">CONTACT</a></div>
+            <div class="links"><a href="">BOOKLETS</a></div>
+            <div class="links"><a href="">MERCHANDISE</a></div>
+            <div class="links"><a href="">SHOP</a></div>
+            <div class="social">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-telegram"></i>
+            </div>
+            <div class="like">
+                <div class="icon"><i class="fa-solid fa-thumbs-up"></i></div>
+
+                <div>LIKE 670K</span></div>
+            </div>
+            <div class="yout">
+                <div class="inneryoutube">
+                    <i class="fa-brands fa-youtube"> </i>
+                    <span class="utube">YouTube</span>
+                </div>
+                <div class="count" style="background-color: white;">1M</div>
+
+            </div>
+        </div>
+
+        <div class="display">
+            <iframe src="Aboutus.html" id="iframe" name="ifm"></iframe>
+        </div>
+
+    </div>
+
+    <div class="navbars">
+        <div class="logo navlogo">
+            <div class="nav_img">
+                <img src="assets\img\logo.png" width="70px" alt="logo">
+            </div>
+            <div><a href="Aboutus.html" target="ifm">PetProtectors</a></div>
+        </div>
+        <div class="icon" onclick="toggleSidebar()">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-times"></i>
+        </div>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.querySelector('.sidebars');
+            var barsIcon = document.querySelector('.fa-bars');
+            var timesIcon = document.querySelector('.fa-times');
+            var logo = document.querySelector('.logo');
+
+            if (sidebar.classList.contains('open')) {
+                sidebar.classList.remove('open');
+                sidebar.style.display = 'none';
+                barsIcon.style.display = 'inline-block';
+                timesIcon.style.display = 'none';
+            } else {
+                sidebar.classList.add('open');
+                logo.style.display='none';
+                barsIcon.style.display = 'none';
+                sidebar.style.display = 'inline-block';
+                sidebar.style.paddingTop = '10%';
+                timesIcon.style.display = 'inline-block';
+
+                
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,470 @@
+body {
+    /* width: 100%;
+   height: 100%; */
+    background-color: #d5bc92;
+}
+
+.parent {
+    display: flex;
+}
+
+.display {
+    width: 70%;
+
+}
+
+#iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    /* Allow the content inside the iframe to be scrollable */
+    overflow-y: auto;
+    scroll-behavior: smooth;
+
+
+    /* background-color: aliceblue; */
+}
+
+.links>a,
+.logo>h3>a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #5c4528;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 2.3rem;
+}
+
+.yout {
+    display: flex;
+}
+
+.inneryoutube {
+    background-color: red;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 3px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.count {
+    background-color: white;
+    color: black;
+    padding-left: 3px;
+    padding-right: 7px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.social {
+
+    display: flex;
+}
+
+.sidebars,
+.links,
+.social,
+.yout {
+    width: 25%;
+}
+
+.sidebars {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    margin-left: 3%;
+    color: #5c4528;
+    margin-top: 3%;
+    line-height: 2.3rem;
+}
+
+.like,
+.yout,
+.social {
+    line-height: 2.3rem;
+
+}
+
+.yout,
+.like {
+
+    margin-bottom: 12px;
+}
+
+.yout {
+    width: 100%;
+}
+
+
+.social>i {
+    padding: 2px;
+    color: #5c4528;
+}
+
+.inneryoutube>.fa-youtube,
+.inneryoutube>.utube {
+
+    color: white;
+
+}
+
+.like {
+    display: flex;
+    margin-top: 2%;
+    background-color: rgb(11, 142, 186);
+    border-radius: 7px;
+    width: 8em;
+}
+
+.like>.icon>.fa-thumbs-up,
+.like>div {
+    padding-left: .5em;
+
+    color: white;
+}
+
+.fa-bars {
+    display: none;
+}
+
+.Abt_article {
+    background-color: aliceblue;
+    width: 100%;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.Abt_article>ol>li {
+    padding-right: 15px;
+}
+
+a {
+    color: green;
+}
+
+article>h1 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+ol>li {
+    list-style-type: none;
+}
+
+.Abt_article {
+    background-color: rgb(253, 253, 253);
+}
+
+.ourwork {
+    width: 97%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 3%;
+    border-radius: 10px;
+}
+
+.our_content {
+    padding: 10px 10px;
+    margin: 25px 20px;
+}
+
+.our_content>h3>a {
+    color: green;
+    font-weight: 900;
+}
+
+.visit_container {
+    background-color: rgb(251, 251, 251);
+    border-radius: 10px;
+
+    width: 100%;
+}
+
+.visit_content {
+    padding: 10px 10px;
+
+    margin: 25px 20px;
+}
+
+.visit_content>ol>li {
+    list-style-type: none;
+}
+
+.donate_container {
+    background-color: rgb(251, 251, 251);
+    border-radius: 10px;
+    margin-left: 0%;
+    width: 100%;
+}
+
+.donate_content {
+    padding: 5% 5%;
+
+    margin: 3% 3%;
+}
+
+.donate_content>ul>li>a {
+    color: green;
+    font-weight: bold;
+}
+
+
+
+
+.amount {
+    width: 45%;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 8%; */
+}
+
+#amnt,
+#donate,
+#pan,
+#subs,
+#buy,
+#monthly {
+    padding: 8px;
+    border: 1px solid green;
+    border-radius: 5px;
+    color: green;
+    font-weight: bold;
+    background-color: white;
+}
+
+#amnt,
+#subs,
+#buy,
+#monthly {
+
+    border: none;
+    outline: none;
+
+}
+form{
+    width: 100%;
+}
+.amount {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+   width: 25%;
+
+}
+
+
+.amount {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid green;
+}
+
+.amount>div,.amount>span {
+    font-size: 2rem; /* Adjust the size of the currency symbol as needed */
+    margin-left: 5px; /* Adjust the spacing between the symbol and the input field */
+}
+
+#amnt {
+    width: auto; /* Adjust the width of the input field */
+    font-size: 1.6rem; /* Adjust the font size of the input field */
+}
+
+
+
+
+.amount>span {
+    background-color: white;
+    color: green;
+    margin-left: 1%;
+    /* border-right: 1px solid green; */
+}
+
+.donate_content>form>.amount>span {
+    text-align: center;
+}
+
+.pet_selection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.adopt_parent {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.adopt_inner_container>h2 {
+    text-align: center;
+    background-color: #5c4528;
+    color: #fbfbfb;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.adopt_parent>.adopt_inner_container>h2>a {
+    color: #d5bc92;
+    text-decoration: none;
+}
+
+.pet_selection>#gender,
+.pet_selection>#age {
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    margin-left: 1%;
+}
+
+.img>input {
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.img>h3 {
+    color: green;
+    text-align: center;
+}
+
+.img>img {}
+
+.adopt_container {
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 15px;
+
+}
+
+.img {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img>img {
+    width: 100%;
+    height: auto;
+    /* border-radius: 50%; */
+
+}
+
+.fa-circle {
+    color: green;
+}
+
+.spec,
+.spec>span,
+.fa-circle {
+    padding: 5px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.adopt_inner_container {
+    padding: 10px 20px 20px 10px;
+
+
+}
+
+.navbars {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .parent {
+        width: 100%;
+    }
+
+    .navlogo>div>a {
+        color: #45321c;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .sidebars {
+        display: none;
+    }
+
+    .navlogo>img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .navlogo>h3>a {
+        text-align: center;
+    }
+
+    .navbars {
+        margin: 0;
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        z-index: 1000;
+        padding: 3px 3px 0px 0px;
+
+    }
+
+    .navlogo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-bars,
+    .fa-times {
+        display: flex;
+        position: absolute;
+        top: 35%;
+        left: auto;
+        right: 7%;
+    }
+
+    .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .display {
+        width: 100%;
+        height: 90%;
+        margin-top: 15%;
+    }
+
+
+    #iframe {
+        width: 100%;
+        height: 100vh;
+        border: none;
+        overflow-y: auto;
+        scroll-behavior: smooth;
+    }
+}
